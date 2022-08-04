@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test Task</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main_block">
+        <h1 class="title">Управление рассылками</h1>
+        <p>Здравствуйте, Андрей. Выберите, категории писем, от которых хотите отписаться.
+            Но пожалуйста, исключите только те категории, которые действительно вас не интересуют.
+            Мы обещаем слать только полезные письма где 😊
+        </p>
+        <div class="block-general_messages">
+            <p>Общие уведомления</p>
+            <div class="sub_block-general_messages">
+                <div class="sub_block-section">
+                    <p>Приветственная серия</p>
+                    <div class="inner_block">
+                        <div class="options_btn" id="btn-welcome_series" data-state="on">
+                            <div class="inner_circle"></div>
+                        </div>
+                        <p>4 полезных и емких письма в течение месяца</p>
+                    </div>
+                </div>
+                <div class="sub_block-section">
+                    <p>Образовательные вебинары</p>
+                    <div class="inner_block">
+                        <div class="options_btn" id="btn-eucational_webinars" data-state="on">
+                            <div class="inner_circle"></div>
+                        </div>
+                        <p>Бесплатные вебинары проходят 1 раз в 2 недели.<br>
+                            Вы будете получать 2 письма с напоминанием<br>
+                            о предстоящем вебинаре
+                        </p>
+                    </div>
+                </div>
+                <div class="sub_block-section">
+                    <p>Личные сообщения</p>
+                    <div class="inner_block">
+                        <div class="options_btn" id="btn-private_messages" data-state="on">
+                            <div class="inner_circle"></div>
+                        </div>
+                        <div class="block-options_menu" data-state="off">Мгновенно<img src="img/arrow.png" alt=""></div>
+                        <div class="options_menu">
+                            <div data-option="Мгновенно">Мгновенно</div>
+                            <div data-option="1 раз в день">1 раз в день</div>
+                            <div data-option="Отключить">Отключить</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block_sites-messages">
+            <p>Уведомление по Сайтам</p>
+            <div class="sub-block_sites-messages">
+                <div class="sub_block-section">
+                    <p>Новости</p>
+                    <div class="inner_block">
+                        <div class="options_btn" id="btn-news" data-state="on">
+                            <div class="inner_circle"></div>
+                        </div>
+                    </div>
+                </div>
+                <p class="sub_title">Поисковые агенты</p>
+                <div class="sub_block-section">
+                    <div class="section-left_side">
+                        <p>Бизнес</p>
+                        <div class="left_side-bottom_part">
+                            <div class="block-included_option">
+                                <div class="included_option">Seo <img src="img/cross.png" alt=""></div>
+                                <div class="included_option">Продвижение <img src="img/cross.png" alt=""></div>
+                                <div class="included_option">Аналитика <img src="img/cross.png" alt=""></div>
+                            </div>
+                            <div class="btn-details">Детали</div>
+                            <div class="modal_window"><img src="img/cross.png" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere facilis quaerat voluptatibus, odio a aliquid laboriosam accusantium consectetur eos natus vel. Qui in, commodi eos, totam unde accu</div>
+                        </div>
+
+                    </div>
+                    <div class="section-right_side">
+                        <div class="inner_block">
+                            <div class="options_btn" id="btn-business" data-state="on">
+                                <div class="inner_circle"></div>
+                            </div>
+                            <p>Поисковый агент присылает 1 письмо<br>
+                                в неделю и только при условии, что найдены<br>
+                                новые площадки
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub_block-section">
+                    <div class="section-left_side">
+                        <p>123</p>
+                        <div class="left_side-bottom_part">
+                            <div class="block-included_option">
+                                <div class="included_option">Seo <img src="img/cross.png" alt=""></div>
+                                <div class="included_option">Продвижение <img src="img/cross.png" alt=""></div>
+                            </div>
+                            <div class="btn-details">Детали</div>
+                            <div class="modal_window"><img src="img/cross.png" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere facilis quaerat voluptatibus, odio a aliquid laboriosam accusantium consectetur eos natus vel. Qui in, commodi eos, totam unde accu</div>
+                        </div>
+                    </div>
+                    <div class="section-right_side">
+                        <div class="inner_block">
+                            <div class="options_btn" id="btn-123" data-state="on">
+                                <div class="inner_circle"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub_block-section">
+                    <div class="section-left_side">
+                        <p>SEO</p>
+                        <div class="left_side-bottom_part">
+                            <div class="block-included_option">
+                                <div class="included_option">Seo <img src="img/cross.png" alt=""></div>
+                                <div class="included_option">Продвижение <img src="img/cross.png" alt=""></div>
+                                <div class="included_option">Аналитика <img src="img/cross.png" alt=""></div>
+                            </div>
+                            <div class="btn-details">Детали</div>
+                            <div class="modal_window"><img src="img/cross.png" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere facilis quaerat voluptatibus, odio a aliquid laboriosam accusantium consectetur eos natus vel. Qui in, commodi eos, totam unde accu</div>
+                        </div>
+                    </div>
+                    <div class="section-right_side">
+                        <div class="inner_block">
+                            <div class="options_btn" id="btn-SEO" data-state="on">
+                                <div class="inner_circle"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub_block-section">
+                    <div class="section-left_side">
+                        <p>Бурж ссылки</p>
+                        <div class="left_side-bottom_part">
+                            <div class="block-included_option">
+                                <div class="included_option">Биржи ссылок: Не обнаружен <img src="img/cross.png" alt=""></div>
+                            </div>
+                            <div class="btn-details">Детали</div>
+                            <div class="modal_window"><img src="img/cross.png" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere facilis quaerat voluptatibus, odio a aliquid laboriosam accusantium consectetur eos natus vel. Qui in, commodi eos, totam unde accu</div>
+                        </div>
+                    </div>
+                    <div class="section-right_side">
+                        <div class="inner_block">
+                            <div class="options_btn" id="btn-bourg_links" data-state="on">
+                                <div class="inner_circle"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="sub_title">Рекламные компании</p>
+                <div class="sub_block-section">
+                    <p>Строительство домов в Киеве</p>
+                    <div class="inner_block">
+                        <div class="options_btn" id="btn-private_messages" data-state="on">
+                            <div class="inner_circle"></div>
+                        </div>
+                        <div class="block-options_menu" data-state="off">Мгновенно<img src="img/arrow.png" alt=""></div>
+                        <div class="options_menu">
+                            <div data-option="Мгновенно">Мгновенно</div>
+                            <div data-option="1 раз в день">1 раз в день</div>
+                            <div data-option="Отключить">Отключить</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub_block-section">
+                    <p>Строительство домов в Киеве</p>
+                    <div class="inner_block">
+                        <div class="options_btn" id="btn-private_messages" data-state="on">
+                            <div class="inner_circle"></div>
+                        </div>
+                        <div class="block-options_menu" data-state="off">Мгновенно<img src="img/arrow.png" alt=""></div>
+                        <div class="options_menu">
+                            <div data-option="Мгновенно">Мгновенно</div>
+                            <div data-option="1 раз в день">1 раз в день</div>
+                            <div data-option="Отключить">Отключить</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-telegram_messages">
+            <p>Уведомления по Телеграму</p>
+            <div class="sub_block-section">
+                <p>Новости</p>
+                <div class="inner_block">
+                    <div class="options_btn" id="btn-news" data-state="on">
+                        <div class="inner_circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-main_btns">
+            <div id="btn-default">По умолчанию</div>
+            <div id="btn-save">Сохранить изменения</div>
+        </div>
+        <div class="modal_window-saving">
+            <p>Вы уверены?</p>
+            <div class="block-btns-confirm">
+                <div id="save_btn-no">Нет</div>
+                <div id="save_btn-yes">Да</div>
+            </div>
+        </div>
+        <div class="modal_window-succes">
+            <p>Все изменения сохранены</p>
+            <div class="block-btns-confirm">
+                <div id="save_btn-ok">Ок</div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
